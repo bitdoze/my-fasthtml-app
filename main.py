@@ -4,6 +4,6 @@ app, rt = fast_app()
 
 @rt("/")
 def get():
-    return Div(P("Hello from uv and Dokploy!"))
+    return Div(P("Updated: Hello from uv and Dokploy!"))
 
 serve()
